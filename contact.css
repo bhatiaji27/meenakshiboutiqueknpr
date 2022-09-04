@@ -1,0 +1,134 @@
+body {
+min-height: 100%;
+font-family: Roboto, Arial, sans-serif;
+font-size: 14px;
+color: #666;
+background: #FF95C5;
+text-align: center;
+}
+h1 {
+text-align: center;
+font-weight: 400;
+color: #F10086;
+}
+p {
+margin: 0 0 5px;
+}
+.main-block {
+height: 35rem;
+background: #FF95C5;
+margin-top: 0;
+width: 80%;
+}
+.navbar-brand{
+  margin: 0 2rem;
+}
+form {
+padding: 10px;
+margin: 10px;
+box-shadow: 0 2px 5px #f5f5f5;
+background: #f5f5f5;
+}
+input, textarea {
+width: calc(100% - 18px);
+padding: 8px;
+margin-bottom: 20px;
+border: 1px solid #1c87c9;
+outline: none;
+}
+input::placeholder {
+color: #666;
+}
+form button {
+width: 100%;
+padding: 10px;
+border: none;
+font-size: 16px;
+font-weight: 400;
+color: #fff;
+}
+form button{
+  background-color: #2371a0;
+}
+form button:hover {
+background: #2371a0;
+}
+
+.ok{
+  margin: 5rem;
+}
+
+.twoitem,.threeitem,.oneitem{
+  color: #31087B !important;
+}
+
+.twoitem:hover,.threeitem:hover,.oneitem:hover{
+  color: #595B83 !important;
+}
+
+.mblogo{
+  height: 5rem;
+  background-color: pink;
+}
+
+.navbar{
+  background-color: #FF95C5;
+  height: 5rem;
+}
+
+.navsec{
+  background-color: grey;
+}
+
+.nav-item{
+  margin-right: 1rem;
+}
+
+.oneitem,.twoitem,.threeitem,.fouritem{
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-right: 3rem;
+}
+
+.active{
+  color: #090910 !important;
+  font-weight: bold;
+}
+
+.head{
+  font-family: "Pacifico";
+  color: black;
+}
+
+.anchorhandle2{
+  color: darkgreen;
+  background-color: black;
+}
+.anchorhandle2:hover{
+  color: lightgreen;
+  background-color: black;
+}
+
+.last{
+  position: relative;
+  bottom: 5rem;
+  height: 4.7rem;
+}
+
+strong{
+  color: black;
+}
+
+.last h2{
+  color: purple;
+}
+
+.last h1{
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.container-fluid{
+  margin: auto;
+}

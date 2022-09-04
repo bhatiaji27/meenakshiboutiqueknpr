@@ -1,0 +1,41 @@
+
+p {
+  font-size: 1.8rem;
+}
+
+#carss{
+  background-image:url("images/backpor.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 230rem;
+}
+
+.carousel{
+  width: 90%;
+}
+
+.cloth h1,.cloth1 h1{
+  font-size: 4rem;
+}
+
+.cont{
+  font-size: 2rem;
+}
+
+.head{
+  margin-left: 1.5rem;
+}
+
+.headd{
+  font-size: 3rem;
+}
+
+.im{
+  height: 25rem;
+}
+
+.navsec,.navbar{
+height: 16rem;
+}

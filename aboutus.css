@@ -1,0 +1,167 @@
+body{
+  text-align: center;
+  background-color: #383838;
+}
+
+h1{
+  font-family: "Permanent Marker";
+  color: #FF69C5;
+  font-size: 4rem;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  color: white;
+  margin: 1rem;
+}
+
+p{
+  font-family: "Monsterrat";
+  color: white;
+}
+
+.cloth{
+  margin: 3rem auto;
+}
+
+.cloth h1{
+  color: white;
+}
+
+p{
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.active{
+  color: #090910 !important;
+  font-weight: bold;
+}
+
+.carbtn{
+  background-color: black;
+}
+
+.carousel{
+  width: 60%;
+  margin: 0 auto;
+  border: solid 0.75rem;
+  border-image: linear-gradient(50deg,skyblue,purple) 10;
+}
+
+#carss{
+  background-image:url("images/back3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 290rem;
+}
+
+.cont{
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+.enterbtn{
+  background-color: pink;
+  color: black;
+  border: none;
+  margin: 1rem;
+}
+
+.enterbtn:hover{
+  box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: grey;
+}
+
+.hd{
+  text-decoration: underline;
+  text-decoration-color: black;
+  margin: 1rem;
+}
+
+.head{
+  font-family: "Pacifico";
+  margin-left: 1.5rem;
+}
+
+.headd{
+  font-family: "Pacifico-bold";
+  text-decoration: underline;
+  text-decoration-color: black;
+  margin: 3rem;
+  padding: 3rem;
+}
+
+.high{
+  color: #ff95c5;
+  font-weight: bolder;
+}
+
+.ic{
+  font-size: 2rem;
+}
+
+.im{
+  height: 35rem;
+  width: 79%;
+  margin: 0 auto;
+}
+
+
+.last{
+  background-color: black;
+}
+
+.masi{
+  height: 30rem;
+  border: 10px solid;
+  border-image: linear-gradient(23deg,#FF6500,#3E065F) 10;
+  margin: auto;
+}
+
+.mblogo{
+  height: 5rem;
+  background-color: pink;
+}
+
+.navbar{
+  background-color: #FF95C5;
+  height: 5rem;
+}
+
+.navsec{
+  height: 5rem;
+}
+
+.oneitem,.twoitem,.threeitem,.fouritem{
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-right: 2.8rem;
+}
+
+.one, .text{
+  padding: 1rem;
+  margin: auto;
+}
+
+.own{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  color: #FF95C5;
+}
+
+.sp{
+  height: 22rem;
+}
+
+.twoitem,.threeitem,.fouritem{
+  color: #31087B !important;
+}
+
+.twoitem:hover,.threeitem:hover,.fouritem:hover{
+  color: #595B83 !important;
+}

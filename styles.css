@@ -1,0 +1,95 @@
+body{
+  text-align: center;
+}
+
+h1{
+  text-decoration: underline;
+  font-family: "Permanent Marker";
+  color: #595B83;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+h2{
+  font-family: "Courgette";
+  font-weight: bold;
+}
+
+.active{
+  color: #090910 !important;
+  font-weight: bold;
+}
+
+.enterbtn{
+  background-color: inherit;
+  color: black;
+  border: none;
+  margin: 2rem;
+}
+
+.enterbtn:hover{
+  background-color: grey;
+}
+
+.centered1 .mlo{
+  display: none;
+}
+
+.oneitem,.twoitem,.threeitem,.fouritem{
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-right: 3rem;
+  margin-left: 0;
+}
+
+.open{
+  padding: 3rem 3rem;
+  line-height: 1.3;
+  font-size: 1.3rem;
+}
+
+.twoitem,.threeitem,.fouritem{
+  color: #31087B !important;
+}
+
+.twoitem:hover,.threeitem:hover,.fouritem:hover{
+  color: #595B83 !important;
+}
+
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: white;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #FF95C5 ;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 50%;
+}

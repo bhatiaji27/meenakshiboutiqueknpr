@@ -1,0 +1,50 @@
+.main-block{
+  width: 100%;
+  margin: 3rem auto;
+  height: 45rem;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+.info, .main-block p{
+  font-size: 2rem;
+}
+
+.main-block button{
+  font-size: 3rem;
+}
+
+.last h1{
+  font-size: 4rem;
+}
+.last h2{
+  font-size: 3rem;
+}
+
+form{
+  height: 40rem;
+  width: 90%;
+  margin: auto;
+}
+
+.ok{
+  margin: 0;
+}
+
+.navbar{
+  height: 27rem;
+}
+
+.nav-item{
+  margin: 0;
+}
+
+.oneitem,.twoitem,.threeitem,.fouritem{
+  font-size: 2.5rem;
+}
+
+.head{
+  font-size: 4rem;
+}

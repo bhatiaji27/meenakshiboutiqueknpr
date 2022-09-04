@@ -1,0 +1,92 @@
+body{
+  text-align: center;
+}
+
+span{
+  font-family: "Permanent Marker";
+  color: #F4ABC4;
+}
+
+.active{
+  color: #090910 !important;
+  font-weight: bold;
+}
+
+.ars,.ars1{
+  height: 28rem;
+  width: 25%;
+  margin: 1.5rem;
+  border: 10px solid;
+  border-image: linear-gradient(23deg,#FF6500,#3E065F) 10;
+}
+
+.btn{
+  background-color: #F10086;
+  margin: 1rem;
+  font-family: "Monsterrat";
+}
+
+.btn:hover{
+  color: #F10086;
+}
+
+.carrr{
+  background-color: #383838;
+}
+
+.content{
+  font-family: "Courgette";
+  color: #F10086;
+  font-size: 2rem;
+}
+
+.head{
+  font-family: "Pacifico";
+}
+
+.mblogo{
+  height: 5rem;
+  background-color: pink;
+}
+
+.navbar{
+  background-color: #FF95C5;
+  height: 5rem;
+  width: 100%;
+}
+
+.navbar-brand{
+  margin: 0 2rem;
+}
+
+.oneitem,.twoitem,.threeitem,.fouritem{
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-right: 2rem;
+}
+
+.quote{
+  font-family: "Monsterrat";
+  width: 65%;
+  margin: 0.3rem auto;
+  color: #FDEFF4;
+}
+
+
+.twoitem,.threeitem,.fouritem{
+  color: #31087B !important;
+}
+
+.twoitem:hover,.threeitem:hover,.fouritem:hover{
+  color: #595B83 !important;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+.ars1 { display: none; }
+.ars{ width: 75%; }
+
+
+}
